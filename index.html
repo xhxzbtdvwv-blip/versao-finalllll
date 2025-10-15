@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devocional Infantil: Crescendo com Deus - Ensine fé, valores e amor a Deus para seus filhos com nosso devocional diário cristão para crianças. Oferta especial com 85% de desconto!">
+    <title>Devocional Infantil: Crescendo com Deus | A fé do seu filho começa em casa</title>
+    
+    <!-- Google Fonts - Tipografia amigável e arredondada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Fredoka+One&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho Fixo -->
+    <header class="header-fixed">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <span>Devocional Infantil</span>
+            </div>
+            <a href="#oferta" class="btn btn-primary btn-header" data-testid="button-compre-agora-header">Compre Agora</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">A fé do seu filho começa em casa.</h1>
+                <p class="hero-subtitle">Transforme momentos simples em memórias eternas. Ensine valores cristãos de forma divertida e envolvente com nosso devocional infantil ilustrado.</p>
+                
+                <!-- Temporizador Regressivo -->
+                <div class="countdown-box" id="countdown">
+                    <div class="countdown-label">Oferta especial termina em:</div>
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="hours">23</span>
+                            <span class="countdown-text">Horas</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="minutes">59</span>
+                            <span class="countdown-text">Minutos</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="seconds">59</span>
+                            <span class="countdown-text">Segundos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#oferta" class="btn btn-cta" data-testid="button-garanta-desconto">
+                    <i class="fas fa-gift"></i>
+                    Garanta o seu com 85% de desconto!
+                </a>
+                
+                <div class="hero-image">
+                    <i class="fas fa-bible hero-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <h2 class="section-title fade-in">Por que escolher nosso Devocional?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in" data-testid="card-beneficio-1">
+                    <div class="benefit-icon">
+                        <i class="fas fa-praying-hands"></i>
+                    </div>
+                    <h3 class="benefit-title">Ensina Fé e Valores</h3>
+                    <p class="benefit-text">Histórias bíblicas adaptadas para crianças compreenderem o amor de Deus desde cedo.</p>
+                </div>
+
+                <div class="benefit-card fade-in" data-testid="card-beneficio-2">
+                    <div class="benefit-icon">
+                        <i class="fas fa-home-heart"></i>
+                    </div>
+                    <h3 class="benefit-title">Fortalece a Rotina Familiar</h3>
+                    <p class="benefit-text">Crie momentos especiais de conexão familiar com devocional diário de apenas 10 minutos.</p>
+                </div>
+
+                <div class="benefit-card fade-in" data-testid="card-beneficio-3">
+                    <div class="benefit-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="benefit-title">Linguagem Simples</h3>
+                    <p class="benefit-text">Textos escritos especialmente para crianças de 4 a 10 anos entenderem facilmente.</p>
+                </div>
+
+                <div class="benefit-card fade-in" data-testid="card-beneficio-4">
+                    <div class="benefit-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="benefit-title">Ilustrações Coloridas</h3>
+                    <p class="benefit-text">Desenhos lindos e vibrantes que capturam a atenção e imaginação das crianças.</p>
+                </div>
+
+                <div class="benefit-card fade-in" data-testid="card-beneficio-5">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="benefit-title">Atividades Interativas</h3>
+                    <p class="benefit-text">Jogos, perguntas e desafios que tornam o aprendizado divertido e memorável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title fade-in">O que os pais estão dizendo</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in" data-testid="card-depoimento-1">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Meu filho ama o devocional! Ele pede pra ler todo dia. Está aprendendo sobre Deus de forma leve e divertida."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Juliana M.</strong>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in" data-testid="card-depoimento-2">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Transformou nossa rotina! Agora temos um momento especial todas as noites antes de dormir. Minha família está mais unida."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Carlos R.</strong>
+                            <span>Rio de Janeiro, RJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in" data-testid="card-depoimento-3">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"As ilustrações são lindas e as atividades prendem a atenção das crianças. Melhor investimento que já fiz para a educação cristã dos meus filhos!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Ana Paula S.</strong>
+                            <span>Belo Horizonte, MG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta Especial -->
+    <section class="offer" id="oferta">
+        <div class="container">
+            <div class="offer-content fade-in">
+                <div class="offer-badge">
+                    <i class="fas fa-tag"></i>
+                    OFERTA ESPECIAL
+                </div>
+                <h2 class="offer-title">85% de Desconto Hoje!</h2>
+                <p class="offer-price">
+                    <span class="price-old">De R$ 97,00</span>
+                    <span class="price-new">Por apenas R$ 14,70</span>
+                </p>
+                
+                <!-- Contador Regressivo na Oferta -->
+                <div class="offer-countdown" id="offer-countdown">
+                    <div class="offer-countdown-label">⏰ Promoção termina em:</div>
+                    <div class="offer-countdown-timer">
+                        <div class="offer-countdown-item">
+                            <span class="offer-countdown-value" id="offer-hours">23</span>
+                            <span class="offer-countdown-text">h</span>
+                        </div>
+                        <span class="offer-countdown-separator">:</span>
+                        <div class="offer-countdown-item">
+                            <span class="offer-countdown-value" id="offer-minutes">59</span>
+                            <span class="offer-countdown-text">m</span>
+                        </div>
+                        <span class="offer-countdown-separator">:</span>
+                        <div class="offer-countdown-item">
+                            <span class="offer-countdown-value" id="offer-seconds">59</span>
+                            <span class="offer-countdown-text">s</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offer-urgency">
+                    <p><i class="fas fa-fire"></i> <strong>Poucas cópias restantes!</strong></p>
+                    <p><i class="fas fa-clock"></i> Esta promoção acaba em poucas horas</p>
+                </div>
+
+                <a href="#checkout" class="btn btn-buy" data-testid="button-comprar-agora">
+                    <i class="fas fa-shopping-cart"></i>
+                    Comprar Agora - R$ 14,70
+                </a>
+
+                <div class="offer-security">
+                    <i class="fas fa-lock"></i>
+                    <span>Pagamento 100% Seguro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bônus -->
+    <section class="bonus" id="bonus">
+        <div class="container">
+            <div class="bonus-content fade-in">
+                <div class="bonus-badge">
+                    <i class="fas fa-gift"></i>
+                    BÔNUS GRÁTIS
+                </div>
+                <h2 class="section-title">Compre hoje e ganhe</h2>
+                <div class="bonus-card">
+                    <div class="bonus-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="bonus-info">
+                        <h3>E-book de Atividades Bíblicas para Colorir</h3>
+                        <p>30 páginas com desenhos lindos para seus filhos colorirem enquanto aprendem histórias da Bíblia.</p>
+                        <div class="bonus-value">
+                            <span class="bonus-old">Valor: R$ 29,00</span>
+                            <span class="bonus-new">GRÁTIS com sua compra!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garantia -->
+    <section class="guarantee" id="garantia">
+        <div class="container">
+            <div class="guarantee-content fade-in">
+                <div class="guarantee-badge">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h2 class="section-title">Garantia de 7 Dias</h2>
+                <p class="guarantee-text">Se você não amar o devocional, devolvemos 100% do seu dinheiro. Sem perguntas, sem complicações.</p>
+                <div class="guarantee-features">
+                    <div class="guarantee-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Reembolso garantido em até 7 dias</span>
+                    </div>
+                    <div class="guarantee-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Risco zero para você</span>
+                    </div>
+                    <div class="guarantee-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Suporte dedicado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title fade-in">Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item fade-in" data-testid="faq-item-1">
+                    <button class="faq-question" data-testid="button-faq-1">
+                        <span>Como recebo o devocional?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Após a confirmação do pagamento, você receberá imediatamente um email com o link para download do material em PDF. Você pode acessar de qualquer dispositivo (computador, tablet, celular) e imprimir quantas vezes quiser!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in" data-testid="faq-item-2">
+                    <button class="faq-question" data-testid="button-faq-2">
+                        <span>Serve para qual idade?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O devocional foi desenvolvido especialmente para crianças de 4 a 10 anos. A linguagem é simples e adaptada para essa faixa etária, mas pais de crianças mais velhas também têm usado com sucesso!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in" data-testid="faq-item-3">
+                    <button class="faq-question" data-testid="button-faq-3">
+                        <span>Posso imprimir o material?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O devocional é entregue em formato PDF de alta qualidade, pronto para impressão. Você pode imprimir em casa, em uma gráfica, ou usar apenas no formato digital - como preferir!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-book-open"></i>
+                        <span>Devocional Infantil</span>
+                    </div>
+                    <p>Ensinando fé, valores e amor a Deus para a próxima geração.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links Importantes</h4>
+                    <ul>
+                        <li><a href="#politica" data-testid="link-politica">Política de Privacidade</a></li>
+                        <li><a href="#termos" data-testid="link-termos">Termos de Uso</a></li>
+                        <li><a href="#contato" data-testid="link-contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" data-testid="link-facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" data-testid="link-instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube" data-testid="link-youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devocional Infantil - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
